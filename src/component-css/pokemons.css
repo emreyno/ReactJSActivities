@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&family=Noto+Sans+HK:wght@300;500&display=swap');
+.pokemon-table{
+   
+    
+    width:500px;
+    border-spacing: 0 1em;
+    
+}
+
+
+.pokemon-image{
+    width:200px;
+    height:200px;
+}
+
+
+.poke-name,.poke-type,.img-container{
+    background-color:beige;
+    color:black;
+
+    box-shadow:  1px 4px 4px #555;
+    
+    
+}
+
+.poke-name{
+    padding:30px;
+   
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 200px;
+    width:300px;
+   
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+    font-size:30px;
+}
+.poke-type{
+    padding:30px;
+    width:200px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 200px;
+    
+   
+}
+.img-container{
+    padding:10px;
+    height: 200px;
+   
+}
+.head-image,.head-name,.head-type{
+    background:rgba(0, 170, 255,0.9);
+    color:rgba(250, 204, 0,1);
+    font-family: 'Noto Sans HK', sans-serif;
+    height:80px;
+   padding: 10px;
+   box-shadow:  0px 5px 4px #555;
+  
+
+    
+    
+}
+
+.head-name{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width:300px;
+}
+.head-type{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.All{
+    background-color:white;
+    border-radius: 10px;
+    color:black;
+}
+.Water{
+    background-color:blue;
+    border-radius: 10px;
+    color:white;
+}
+.Fire{
+    background-color:rgb(255, 0, 0);
+    border-radius: 10px;
+    color:white;
+}
+.Grass{
+    background-color:green;
+    border-radius: 10px;
+    color:white;
+}
+.All,.Water,.Fire,.Grass{
+box-shadow:  1px 4px 4px #555;
+text-shadow: 1px 4px 4px #555;
+padding:5px;
+text-align: center;
+}
+.head-text{
+    font-size: 2rem;
+    text-align: center;
+}
+.buttons-con{
+    text-align: center;
+}
+.pokemon-btn{
+    margin: 10px;
+    width:100px;
+}
